@@ -1,10 +1,6 @@
-
-          #include<iostream>
-
+#include<iostream>
 using namespace std;
-
 void displayPixel(int x, int y, int cx, int cy)
-
 {
 
     cout<<"("<<x+cx<<", "<<y+cy<<")"<<endl;
@@ -16,9 +12,7 @@ void midCircle(int r, int cx, int cy)
 {
 
     int x, y;
-
     x = 0;
-
     y = r;
 
     int pk;
