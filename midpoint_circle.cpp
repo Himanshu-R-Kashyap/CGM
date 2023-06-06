@@ -19,7 +19,7 @@ void midCircle(int r, int cx, int cy)
         {
             x = x + 1;
             y = y - 1;
-            pk = pk + 2*x + 2*y;
+            pk = pk + 2*x + 1 - 2*y;
         }
 
     }
